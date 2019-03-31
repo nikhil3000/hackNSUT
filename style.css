@@ -1,32 +1,12 @@
-@import './base/settings';
-@import './base/base';
-@import './components/auth';
-@import './components/register';
+body, html {
+    height: 100%;
+    background-color: rgba(14,14,30,1);
+    background: linear-gradient(to right, #0b0b18 0%, #151a34 100%);
+    font-family: 'Raleway', sans-serif;
 
-
-.a {
-    margin:5px 10px;
-    color:#00f0ff;
-    font-weight:600;
-    letter-spacing:1px;
 }
-
-.b {
-    margin:40px 10px 5px 10px;color:#00f0ff;font-weight:600;letter-spacing:1px;
-}
-
-.c {
-    margin:40px 10px 5px 10px;color:#00f0ff;font-weight:600;letter-spacing:1px;
-}
-.d {
-    margin-top:3%;margin-bottom:4%;width:60%;
-}
-.e {
-    transform:translateY(10%);
-}
-
-.f {
-    padding:20px 20px;
+html{
+  background-color: rgba(14,14,30,1);
 }
 
 .sidenav {
